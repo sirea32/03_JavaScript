@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#outputBox {
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center; /* Default horizontal alignment */
+  align-items: center; /* Default vertical alignment */
+}
+
+#output {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center; /* This can be omitted if not needed */
+}

@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 20px;
+}
+
+#outputBox{
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#output{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+/* .inline-block{ 
+  display: inline-block;
+} */
+
+
+.divide1{
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.divide2{
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.divide21{
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.divide3{
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.divide4{
+  display: flex;
+  justify-content: center;
+  height: 100px
+}
+
+

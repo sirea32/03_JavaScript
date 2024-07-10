@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styler</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div>
+        <label for="width">너비 :</label>
+        <input type="number" id="width" value="200"> px
+    </div>
+    <div>
+        <label for="height">높이 :</label>
+        <input type="number" id="height" value="400"> px
+    </div>
+    <div>
+        <label for="fontSize">글자크기 :</label>
+        <input type="number" id="fontSize" value="20"> px
+    </div>
+    <div>
+        <label for="fontWeight">굵기 :</label>
+        <input type="radio" name="fontWeight" value="normal"> 보통
+        <input type="radio" name="fontWeight" value="bold" checked> 굵게
+    </div>
+    <div>
+        <label for="fontColor">글자색 :</label>
+        <input type="text" id="fontColor" value="red">
+    </div>
+    <div>
+        <label for="bgColor">배경색 :</label>
+        <input type="text" id="bgColor" value="yellow">
+    </div>
+    <div>
+        <label>가로정렬 :</label>
+        <input type="radio" name="textAlign" value="left"> 왼쪽
+        <input type="radio" name="textAlign" value="center" checked> 가운데
+        <input type="radio" name="textAlign" value="right"> 오른쪽
+    </div>
+    <div>
+        <label>세로정렬 :</label>
+        <input type="radio" name="verticalAlign" value="top"> 위
+        <input type="radio" name="verticalAlign" value="center" checked> 가운데
+        <input type="radio" name="verticalAlign" value="bottom"> 아래
+    </div>
+    <div>
+        <label for="outputText">출력 문자열 :</label>
+        <input type="text" id="outputText" value="Hello World!">
+    </div>
+    <button onclick="applySettings()">적용하기</button>
+    <div id="outputBox">
+        <div id="output"></div>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>
